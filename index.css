@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+
+.header {
+  background-image: url(./img/redes-neuronales.png);
+  /* background-repeat: no-repeat; */
+  background-size: 15rem;
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  
+}
+
+.header_Title {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+  padding-top: 11rem;
+}
+
+
+.header_navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: end;
+  text-decoration: none;
+  padding-top: 3rem;
+  gap: 4.5rem;
+}
+
+.header_navbar > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+
+.descripcion {
+  background: #d1d1d1;
+  display: flex;
+  text-align: center;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* HEADER */
+
+/* MAIN */
+.card_img {
+  background-position: start;
+  object-fit: cover;
+  width: 100%;
+  height: 30vh;
+  gap: 1rem;
+}
+
+.main_container {
+  background-color: #d1d1d1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+.title_container {
+  padding: 1rem;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 33px;
+  width: 256px;
+  height: 19rem;
+}
+
+.card_link {
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  display: grid;
+  transform: translate(68px, 63px);
+  
+}
+
+.card_img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.card_titulo {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  font-size: 15px;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+
+/* ARTICLE */
+.article {
+  display: flex;
+  justify-content: center;
+  background-color: #d1d1d1;
+  padding: 2rem;
+  padding-top: 2rem;
+}
+.text_article {
+  margin-bottom: 1rem;
+}
+/* ARTICLE */
+
+/* TABLA */
+.main_table {
+  display: flex;
+  background-color: #d1d1d1;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+.title_table{
+    padding-bottom: 1rem;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+tr,
+th,
+td,
+dd {
+  border: 1px solid black;
+  margin: 0.5rem;
+}
+
+/* TABLA */
+
+/* FOOTER */
+footer {
+  padding: 1rem;  
+  background-color: #4caf50;
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.8rem; 
+  
+}
+
+footer> h4,p,a,fieldset{
+  color: white;
+  
+}
+
+
+fieldset{
+    padding: 0.5rem;
+}
+/* FOOTER */
+
+@media screen and (min-width:1024px) {
+    
+    header{
+        min-height: 50vh;
+    }
+    
+}
